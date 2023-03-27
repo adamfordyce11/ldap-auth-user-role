@@ -1,0 +1,17 @@
+{
+  "name": "fordyce.services/ldap-auth-user-role",
+  "description": "Authenticate users with LDAP and set their WordPress role based on their LDAP group.",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Adam Fordyce",
+      "email": "adamfordyce@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-ldap": "*"
+  }
+}
+
